@@ -1,0 +1,75 @@
+.radio-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+
+.radio-group input[type="radio"] {
+    display: none;
+}
+
+
+.radio-group label {
+    display: block;
+    width: 80%;
+    margin: 10px 0;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+
+.radio-group input[type="radio"]:checked + label {
+    background-color: #ff3f34;
+    border-color: #ff3f34;
+    color: #fff;
+}
+
+
+.radio-group label:hover {
+    background-color: #f0f0f0;
+}
+
+.payment-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.payment-container h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.payment-container .total-price {
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.payment-container button {
+    background-color: #ff3f34;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.payment-container button:hover {
+    background-color: #e53830;
+}
+
+.payment-container .additional-options {
+    margin-top: 20px;
+    
+    font-size: 16px;
+}
